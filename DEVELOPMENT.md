@@ -5,13 +5,6 @@ Greenfoot supplied tools.
 
 Please read the [README](README.md) first, if you haven't already.
 
-## Missing parts
-
-The following parts/chapters are still missing in this tutorial and will be added later:
-
-- Adding sounds
-
-
 ## Creating a new Project
 
 So you want to make your own game. Great. 
@@ -358,6 +351,16 @@ public class $main-class-name$ extends GreenfootScenarioMain {
 ```
 
 This will start the Greenfoot launcher which in turn loads your game. If you need to do any initialization, do it before the `GreenfootScenarioMain.main(args);` call.
+
+##### Adding and using sound files
+
+I must confess, I didn't read the Greenfoot docs too well. Therefore I don't know, which audio files are supported, but I guess it just supports everything that Java does. I'm using `.wav` files in this example.
+
+First you'll need a soundfile. Download one, record it, I don't really care. I suggest that you follow the same naming principles as with the images (no spaces in file name).
+
+Put the file in `src/main/resources/sounds` and also create a new text file: `src/main/resources/soundindex.list`. Just put in the filename of your sounds, each in it's own line. No paths or anything, just the filename.
+
+After that, you can play your sound by using: `Greenfoot.playSound("mysound.wav")`.
 
 ##### Adding the actor into the world
 

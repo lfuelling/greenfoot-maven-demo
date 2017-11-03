@@ -27,7 +27,7 @@ public class Thug extends Actor
     } else if (Greenfoot.isKeyDown("d")) {
       setLocation(getX() + 2, getY());
     }
-    
+
     if (getIntersectingObjects(Schnapp.class).size() > 0) {
       Greenfoot.playSound("fail.wav");
       MyWorld world = (MyWorld) getWorld();
