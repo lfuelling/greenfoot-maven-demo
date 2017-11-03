@@ -30,7 +30,7 @@ There are many ways to build and run this, I will only cover two of them.
 In any case, you'll need to clone this repo. You can do this by using any Git GUI Client or simply the command line:
 
 ```
-$ git clone git@git.k40s.net:lfuelling/greenfoot-maven-demo.git
+$ git clone git@github.com:lfuelling/greenfoot-maven-demo.git
 ``` 
 
 Also make sure, you have the following tools installed:
