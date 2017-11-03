@@ -32,6 +32,9 @@ Here you go:
 - `$project-name$` - The name of your project - `greenfoot-maven-demo`
 - `$main-class$` - The full identifier of the class containing the `main(String[] args)` method (including full 
 package name) - `io.lerk.demo.DemoApp`
+- `$main-class-package$` - The package of the main class - `io.lerk.demo`
+- `$main-class-name$` - The name of your main class - `DemoApp`
+- `$main-class-path$` - The path to the main class relative from `src/main/java` - `io/lerk/demo`
 
 - `$world-class$` - The full identifier of the main World class - `io.lerk.demo.worlds.MyWorld`
 - `$world-class-name$` - Only the name of the class - `MyWorld`
@@ -332,6 +335,29 @@ class.$actor-class$.image=$actor-image$
 ``` 
 
 #### Final steps
+
+##### The main class
+
+You will also have to have a class that starts your project. This is very nifty if you want to do some initialization before the game loads like configuring the `MenuBar` on macOS or something else.
+
+Let's create the file `src/main/java/$main-class-path$/$main-class-name$.java` and put the following content into it:
+
+```
+package $main-class-package$;
+
+import greenfoot.export.GreenfootScenarioMain;
+
+/**
+ * @author (User Name)
+ */
+public class $main-class-name$ extends GreenfootScenarioMain {
+    public static void main(String[] args) {
+        GreenfootScenarioMain.main(args);
+    }
+}
+```
+
+This will start the Greenfoot launcher which in turn loads your game. If you need to do any initialization, do it before the `GreenfootScenarioMain.main(args);` call.
 
 ##### Adding the actor into the world
 
