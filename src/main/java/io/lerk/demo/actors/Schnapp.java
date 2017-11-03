@@ -30,9 +30,7 @@ public class Schnapp extends Actor
       setLocation(getX() + 2, getY());
     }
 
-
-    List<Home> homes = getIntersectingObjects(Home.class);
-    if (homes.size() > 0) {
+    if (getIntersectingObjects(Home.class).size() > 0) {
       MyWorld world = (MyWorld) getWorld();
       world.removeActors();
       world.showText("DONE!", 400, 50);
