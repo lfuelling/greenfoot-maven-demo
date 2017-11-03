@@ -31,6 +31,7 @@ public class Schnapp extends Actor
     }
 
     if (getIntersectingObjects(Home.class).size() > 0) {
+      Greenfoot.playSound("success.wav");
       MyWorld world = (MyWorld) getWorld();
       world.removeActors();
       world.showText("DONE!", 400, 50);
