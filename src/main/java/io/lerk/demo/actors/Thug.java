@@ -28,8 +28,7 @@ public class Thug extends Actor
       setLocation(getX() + 2, getY());
     }
 
-    List<Schnapp> schnappList = getIntersectingObjects(Schnapp.class);
-    if (schnappList != null && schnappList.size() > 0) {
+    if (getIntersectingObjects(Schnapp.class).size() > 0) {
       MyWorld world = (MyWorld) getWorld();
       world.removeActors();
       world.showText("FAIL!", 400, 50);
