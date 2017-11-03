@@ -32,7 +32,7 @@ public class Schnapp extends Actor
 
 
     List<Home> homes = getIntersectingObjects(Home.class);
-    if (homes != null && homes.size() > 0) {
+    if (homes.size() > 0) {
       MyWorld world = (MyWorld) getWorld();
       world.removeActors();
       world.showText("DONE!", 400, 50);
