@@ -5,6 +5,7 @@ class.io.lerk.demo.actors.Schnapp.image=schnapp.png
 class.io.lerk.demo.actors.Schnapp.superclass=greenfoot.Actor
 class.io.lerk.demo.actors.Text.image=mds.png
 class.io.lerk.demo.actors.Text.superclass=greenfoot.Actor
+class.io.lerk.demo.actors.Thug.image=thug.png
 class.io.lerk.demo.worlds.MyWorld.image=crumpled-paper.jpg
 class.io.lerk.demo.worlds.MyWorld.superclass=greenfoot.World
 
@@ -15,14 +16,14 @@ editor.fx.0.x=0
 editor.fx.0.y=0
 
 # Main Window Settings
-mainWindow.height=600
+mainWindow.height=800
 mainWindow.width=850
 mainWindow.x=40
 mainWindow.y=40
 
 # Misc Project Settings
 package.numDependencies=0
-package.numTargets=2
+package.numTargets=1
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
@@ -30,23 +31,15 @@ readme.width=47
 readme.x=10
 readme.y=10
 
-# Target definitions
+# Target definitions (unknown use)
 target1.height=50
-target1.name=bla
+target1.name=io.lerk.demo.worlds.MyWorld
 target1.showInterface=false
 target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
 target1.x=0
 target1.y=0
-target2.height=50
-target2.name=io.lerk.demo.worlds.MyWorld
-target2.showInterface=false
-target2.type=ClassTarget
-target2.typeParameters=
-target2.width=80
-target2.x=0
-target2.y=0
 
 # Misc/Unknown
 version=3.0.0
