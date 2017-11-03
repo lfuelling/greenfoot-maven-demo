@@ -9,7 +9,7 @@ To get more information on the process of developing without using the Greenfoot
 
 Developing games with Greenfoot is extremely easy compared to other Java frameworks. Unfortunately you are kind of 
 forced to use the toolset supplied by Greenfoot, which might be great for beginners but is just a pain if you are 
-used to develop using a real IDE. Also using a IDE to develop, means that you can that IDE's debugging tools, which 
+used to develop using a real IDE. Also using a IDE to develop, means that you can use that IDE's debugging tools, which 
 is great because the Greenfoot tools only offer stepwise calling of the `act()` methods to do "*debugging*". 
 
 ## Gameplay
