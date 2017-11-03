@@ -3,6 +3,8 @@
 I will try to cover every step necessary to create and build a working Greenfoot project from scratch without using any 
 Greenfoot supplied tools.
 
+Please read the [README](README.md) first, if you haven't already.
+
 ## Missing parts
 
 The following parts/chapters are still missing in this tutorial and will be added later:
