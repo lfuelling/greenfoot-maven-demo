@@ -3,7 +3,6 @@ package io.lerk.demo.actors;
 import greenfoot.Actor;
 import greenfoot.Greenfoot;
 import io.lerk.demo.worlds.MyWorld;
-import java.util.List;
 
 public class Thug extends Actor
 {
@@ -29,10 +28,7 @@ public class Thug extends Actor
     }
 
     if (getIntersectingObjects(Schnapp.class).size() > 0) {
-      Greenfoot.playSound("fail.wav");
-      MyWorld world = (MyWorld) getWorld();
-      world.removeActors();
-      world.showText("FAIL!", 400, 50);
+      ((MyWorld) getWorld()).endGame(false);
     }
   }
 }

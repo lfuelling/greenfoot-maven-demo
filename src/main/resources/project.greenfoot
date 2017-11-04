@@ -3,7 +3,7 @@ class.io.lerk.demo.actors.Home.image=house.png
 class.io.lerk.demo.actors.Home.superclass=greenfoot.Actor
 class.io.lerk.demo.actors.Schnapp.image=schnapp.png
 class.io.lerk.demo.actors.Schnapp.superclass=greenfoot.Actor
-class.io.lerk.demo.actors.Text.image=mds.png
+class.io.lerk.demo.actors.Text.image=text-empty.png
 class.io.lerk.demo.actors.Text.superclass=greenfoot.Actor
 class.io.lerk.demo.actors.Thug.image=thug.png
 class.io.lerk.demo.worlds.MyWorld.image=crumpled-paper.jpg
@@ -18,8 +18,8 @@ editor.fx.0.y=0
 # Main Window Settings
 mainWindow.height=800
 mainWindow.width=850
-mainWindow.x=40
-mainWindow.y=40
+mainWindow.x=100
+mainWindow.y=100
 
 # Misc Project Settings
 package.numDependencies=0

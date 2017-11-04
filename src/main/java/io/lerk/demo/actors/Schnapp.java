@@ -3,7 +3,6 @@ package io.lerk.demo.actors;
 import greenfoot.Actor;
 import greenfoot.Greenfoot;
 import io.lerk.demo.worlds.MyWorld;
-import java.util.List;
 
 /**
  *
@@ -31,11 +30,18 @@ public class Schnapp extends Actor
     }
 
     if (getIntersectingObjects(Home.class).size() > 0) {
-      Greenfoot.playSound("success.wav");
-      MyWorld world = (MyWorld) getWorld();
-      world.removeActors();
-      world.showText("DONE!", 400, 50);
+      ((MyWorld) getWorld()).endGame(true);
     }
+
+
+
+    
+
+
+
+
+
+
   }
 }
 
