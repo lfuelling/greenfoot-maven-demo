@@ -10,8 +10,8 @@
 
     <repositories>
         <repository>
-            <id>k40s-public</id>
-            <url>https://nexus.k40s.net/repository/maven-public/</url>
+            <id>gammel</id>
+            <url>https://nexus.gammel.cloud/repository/maven-releases/</url>
         </repository>
     </repositories>
 
@@ -19,12 +19,12 @@
         <dependency>
             <groupId>org.greenfoot</groupId>
             <artifactId>greenfoot</artifactId>
-            <version>3.1.0</version>
+            <version>3.5.4</version>
         </dependency>
         <dependency>
             <groupId>org.bluej</groupId>
             <artifactId>bluej-core</artifactId>
-            <version>4.0.0</version>
+            <version>greenfoot-3.5.4</version>
         </dependency>
     </dependencies>
 
