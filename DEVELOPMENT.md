@@ -7,7 +7,7 @@ Please read the [README](README.md) first, if you haven't already.
 
 ## Creating a new Project
 
-So you want to make your own game. Great. 
+So you want to make your own game. Great :) 
 
 ### Placeholders
 
@@ -69,7 +69,7 @@ In the directory, create a new file called `pom.xml` and put the following stuff
     <repositories>
         <repository>
             <id>k40s-public</id>
-            <url>https://nexus.k40s.net/repository/maven-public/</url>
+            <url>https://nexus.gammel.cloud/repository/maven-public/</url>
         </repository>
     </repositories>
 
@@ -376,7 +376,7 @@ Also, you will maybe need to add the following below the `package` statement:
 
 `import $actor-class$;`
 
-Some IDE's do this automatically!
+Some IDEs do this automatically!
 
 ##### Let the actor move
 
