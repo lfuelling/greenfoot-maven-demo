@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.bluej</groupId>
             <artifactId>bluej-core</artifactId>
-            <version>greenfoot-3.5.4</version>
+            <version>greenfoot-3.6.0</version>
         </dependency>
     </dependencies>
 
