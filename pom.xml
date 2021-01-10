@@ -17,7 +17,7 @@
         <dependency>
             <groupId>com.github.lfuelling</groupId>
             <artifactId>cleanfoot</artifactId>
-            <version>67ba29</version>
+            <version>3.5.6</version>
         </dependency>
     </dependencies>
 
